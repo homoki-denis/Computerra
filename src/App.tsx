@@ -5,7 +5,6 @@ import ParticleBackground from "./components/ParticleBackground";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Main from "./components/Main";
-import Test from "./components/Test";
 
 function App() {
   return (
