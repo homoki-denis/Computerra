@@ -4,7 +4,7 @@ import type { Container, Engine } from "tsparticles-engine";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-const ParticleBackground = () => {
+const ParticleBackground = (props) => {
   const particlesInit = useCallback(async (engine: Engine) => {
     console.log(engine);
 
@@ -22,50 +22,54 @@ const ParticleBackground = () => {
   );
 
   return (
-    <Particles
-      id="tsparticles"
-      init={particlesInit}
-      loaded={particlesLoaded}
-      options={{
-        background: {
-          image: "linear-gradient(-45deg, #222324 0%, #000000 100%",
-        },
-        particles: {
-          color: {
-            value: "#ffffff",
+    <>
+      <Particles
+        id="tsparticles"
+        init={particlesInit}
+        loaded={particlesLoaded}
+        options={{
+          background: {
+            image: "linear-gradient(-45deg, #222324 0%, #000000 100%",
           },
-          lineLinked: {
-            enable: false,
-          },
-          move: {
-            bounce: false,
-            direction: "none",
-            enable: true,
-            outMode: "out",
-            random: true,
-            speed: 0.3,
-            straight: false,
-          },
-          opacity: {
-            anim: {
-              enable: true,
-              minimumValue: 0,
-              speed: 1,
-              sync: false,
+          particles: {
+            color: {
+              value: "#ffffff",
             },
-            random: true,
-            value: 1,
+            lineLinked: {
+              enable: false,
+            },
+            move: {
+              bounce: false,
+              direction: "none",
+              enable: true,
+              outMode: "out",
+              random: true,
+              speed: 0.3,
+              straight: false,
+            },
+            opacity: {
+              anim: {
+                enable: true,
+                minimumValue: 0,
+                speed: 1,
+                sync: false,
+              },
+              random: true,
+              value: 1,
+            },
+            shape: {
+              type: "circle",
+            },
+            size: {
+              random: true,
+              value: 3,
+            },
           },
-          shape: {
-            type: "circle",
-          },
-          size: {
-            random: true,
-            value: 3,
-          },
-        },
-      }}
-    />
+        }}
+      />
+
+      {props.children}
+    </>
   );
 };
 

@@ -11,6 +11,7 @@ import Container from "@mui/material/Container";
 interface Props {
   window?: () => Window;
   children: React.ReactElement;
+  title?: string;
 }
 
 function ElevationScroll(props: Props) {

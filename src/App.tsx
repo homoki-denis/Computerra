@@ -8,12 +8,13 @@ import Box from "@mui/material/Box";
 function App() {
   return (
     <>
-      <ParticleBackground />
       <React.Fragment>
         <Container maxWidth="lg" id="container">
-          <Box sx={{ bgcolor: "lightblue", height: "100vh" }}>
-            <Navbar />
-          </Box>
+          <ParticleBackground>
+            <Box sx={{ bgcolor: "lightblue", height: "100vh" }}>
+              <Navbar title="navbar" children={any} />
+            </Box>
+          </ParticleBackground>
         </Container>
       </React.Fragment>
     </>
