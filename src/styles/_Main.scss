@@ -1,0 +1,44 @@
+.main-container {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url("https://www.ekko-wp.com/images/ekko.mp4");
+}
+
+.main {
+  text-align: left;
+  vertical-align: center;
+
+  .intro-video {
+    background-color: $text-white;
+    padding: 35px 10px 10px 10px;
+    border-radius: 5px;
+    background-image: url("https://www.ekko-wp.com/images/other/video-background.jpg");
+    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 15%);
+    background-position: top;
+    background-repeat: no-repeat;
+
+    .video {
+      border-radius: 5px;
+      overflow: hidden;
+    }
+  }
+  .main-title {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 1rem 0;
+  }
+  .main-p {
+    font-size: 1rem;
+    font-weight: 300;
+    opacity: 0.8;
+    margin: 0.3rem 0;
+  }
+}
+
+.video-container {
+  padding: 0 10px;
+}
