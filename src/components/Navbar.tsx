@@ -10,7 +10,7 @@ import Container from "@mui/material/Container";
 
 interface Props {
   window?: () => Window;
-  children: React.ReactElement;
+  children?: React.ReactElement;
   title?: string;
 }
 
@@ -23,7 +23,7 @@ function ElevationScroll(props: Props) {
     target: window ? window() : undefined,
   });
 
-  return React.cloneElement(children, {
+  return React.cloneElement(children!, {
     elevation: trigger ? 4 : 0,
   });
 }
