@@ -1,0 +1,30 @@
+@media screen and (max-width: 570px) {
+  .hamburger-menu {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 2px;
+  }
+  .navbar-container {
+    flex-direction: column;
+    .logo {
+      position: absolute;
+      left: 18px;
+      top: 13px;
+    }
+    .nav-items {
+      flex-direction: column;
+      padding-top: 50px;
+    }
+  }
+  #navbar .nav-item {
+    padding: 5px 0;
+    text-align: center;
+  }
+  .menu {
+    display: none;
+  }
+  .menu-block {
+    display: block;
+  }
+}

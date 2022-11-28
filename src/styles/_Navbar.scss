@@ -1,0 +1,26 @@
+@import "./hamburgers/hamburgers.scss";
+
+#navbar {
+  padding: 0 10px;
+  position: relative;
+  border: none;
+  box-shadow: none;
+  .nav-item {
+    padding: 0 0 0 15px;
+    opacity: 0.8;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.menu-flex {
+  display: flex;
+}
