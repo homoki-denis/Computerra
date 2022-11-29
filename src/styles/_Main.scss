@@ -8,7 +8,6 @@
 
 .main {
   text-align: left;
-  vertical-align: center;
 
   .intro-video {
     background-color: $text-white;
@@ -25,7 +24,7 @@
     }
   }
   .main-title {
-    font-size: 3.5rem;
+    font-size: 3em;
     font-weight: bold;
     letter-spacing: 3px;
     margin: 1rem 0;
@@ -37,8 +36,4 @@
     margin: 0.3rem 0;
     line-height: 2rem;
   }
-}
-
-.video-container {
-  padding: 0 10px;
 }
