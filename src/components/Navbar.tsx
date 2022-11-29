@@ -41,7 +41,11 @@ export default function ElevateAppBar(props: Props) {
   return (
     <React.Fragment>
       <ElevationScroll {...props}>
-        <AppBar sx={{ backgroundColor: "transparent" }}>
+        <AppBar
+          sx={{
+            backgroundImage: "linear-gradient(-45deg, #000 0%, #000000 100%)",
+          }}
+        >
           <Toolbar id="navbar">
             <Container id="container">
               <Box

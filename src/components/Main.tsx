@@ -1,5 +1,5 @@
 import * as React from "react";
-import ReactPlayer from "react-player";
+
 import Grid from "@mui/material/Grid";
 
 import Box from "@mui/material/Box";
@@ -20,12 +20,9 @@ export default function Main() {
         >
           <h1 className="main-title">Computerra</h1>
           <p className="main-p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-            molestias quos dolore assumenda suscipit magnam aliquam eum!
-            Quisquam, vitae sint?
-          </p>
-          <p className="main-p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+            The right answer to your problem! We run a sizable business in the
+            IT sector. A project, do you have one? Do you need the best software
+            or the best design? We can assist you with this. 
           </p>
         </Grid>
         <Grid item xs={6} className="video-container">
