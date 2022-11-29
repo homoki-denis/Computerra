@@ -1,5 +1,5 @@
 import * as React from "react";
-
+import ReactPlayer from "react-player";
 import Grid from "@mui/material/Grid";
 
 import Box from "@mui/material/Box";
@@ -30,7 +30,14 @@ export default function Main() {
         </Grid>
         <Grid item xs={6} className="video-container">
           <Box sx={{ color: "black" }} className="intro-video">
-            <video className="video" width="100%" height="100%" loop controls>
+            <video
+              className="video"
+              width="100%"
+              height="100%"
+              loop
+              muted
+              autoPlay
+            >
               <source src={`${video}`} type="video/mp4" />
             </video>
           </Box>
