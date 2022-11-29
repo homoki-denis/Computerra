@@ -1,0 +1,28 @@
+.services {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 93vh;
+  width: 100%;
+}
+
+#services-container {
+  height: 93vh;
+  width: 100%;
+  background-color: #fff;
+}
+
+.services-img {
+  width: 20rem;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.services-icon {
+  width: 3rem;
+  height: 3rem;
+}

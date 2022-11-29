@@ -5,21 +5,26 @@ import ParticleBackground from "./components/ParticleBackground";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Main from "./components/Main";
+import Services from "./components/Services";
 
 function App() {
   return (
     <>
       <ParticleBackground />
-      <React.Fragment>
-        <Container maxWidth="lg" id="container">
-          <Box sx={{ bgcolor: "transparent", height: "100vh" }}>
-            <Navbar />
-            <Box className="main-container">
-              <Main />
-            </Box>
+
+      <Container maxWidth="lg" id="container">
+        <Box sx={{ bgcolor: "transparent", height: "100vh" }}>
+          <Navbar />
+          <Box className="main-container">
+            <Main />
           </Box>
+        </Box>
+      </Container>
+      <Box id="services-container">
+        <Container maxWidth="lg" id="container">
+          <Services />
         </Container>
-      </React.Fragment>
+      </Box>
     </>
   );
 }
