@@ -1,0 +1,21 @@
+.ad {
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: row;
+  .ad-col-left {
+    width: 50%;
+  }
+}
+
+.ad-banner {
+  width: 50%;
+  margin: 8rem 0 0 0;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
