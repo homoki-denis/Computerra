@@ -1,10 +1,10 @@
 .ad {
-  height: 45vh;
   display: flex;
   justify-content: center;
   align-items: center;
 
   flex-direction: row;
+
   .ad-col-left {
     width: 50%;
   }
@@ -12,10 +12,31 @@
 
 .ad-banner {
   width: 50%;
-  margin: 8rem 0 0 0;
+  margin: -3rem 0;
+  // margin: 8rem 0 0 0;
 
   img {
     max-width: 100%;
     height: auto;
+  }
+}
+
+.ad-col-left {
+  margin: 0 2rem 0 0;
+  h1 {
+    margin: 2rem 0;
+    letter-spacing: 1.5px;
+  }
+  p {
+    line-height: 1.4rem;
+    letter-spacing: 1.5px;
+  }
+  .ad-btn {
+    margin: 2rem 0;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
   }
 }

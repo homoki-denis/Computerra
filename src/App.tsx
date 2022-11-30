@@ -21,13 +21,21 @@ function App() {
           </Box>
         </Box>
       </Container>
+
       <Box id="services-container">
         <Container maxWidth="lg" id="container">
           <Services />
         </Container>
+      </Box>
 
+      <Box>
         <Container maxWidth="lg" id="container">
           <Ad />
+        </Container>
+      </Box>
+      <Box id="services-container">
+        <Container maxWidth="lg" id="container">
+          <Services />
         </Container>
       </Box>
     </>
