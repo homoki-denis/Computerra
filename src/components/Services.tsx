@@ -40,57 +40,109 @@ function Services() {
             columns={{ xs: 8, sm: 8, md: 12 }}
             className="services-grid"
           >
-            <Grid item xs={4} sm={4} md={4} className="services-container-flex">
+            <Grid
+              item
+              xs={12}
+              sm={4}
+              md={4}
+              className="services-container-flex"
+            >
               <Item sx={{ display: "flex" }} className="services-item">
                 <FiSmartphone className="services-icon smartphone" />
                 <Box sx={{ textAlign: "left" }} className="services-header">
                   <h5>Responsive</h5>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>
+                    Your website works on any device: desktop, tablet or mobile.
+                  </p>
                 </Box>
               </Item>
             </Grid>
-            <Grid item xs={4} sm={4} md={4} className="services-container-flex">
+            <Grid
+              item
+              xs={12}
+              sm={4}
+              md={4}
+              className="services-container-flex"
+            >
               <Item sx={{ display: "flex" }} className="services-item">
                 <RxGear className="services-icon gears" />
                 <Box sx={{ textAlign: "left" }} className="services-header">
                   <h5>Customizable</h5>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>
+                    You can easily read, edit, and write your own code, or
+                    change everything.
+                  </p>
                 </Box>
               </Item>
             </Grid>
-            <Grid item xs={4} sm={4} md={4} className="services-container-flex">
+            <Grid
+              item
+              xs={12}
+              sm={4}
+              md={4}
+              className="services-container-flex"
+            >
               <Item sx={{ display: "flex" }} className="services-item">
                 <RiPencilRuler2Line className="services-icon pencil" />
                 <Box sx={{ textAlign: "left" }} className="services-header">
                   <h5>UI design</h5>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>
+                    There is a bunch of useful and necessary elements for
+                    developing your website.
+                  </p>
                 </Box>
               </Item>
             </Grid>
-            <Grid item xs={4} sm={4} md={4} className="services-container-flex">
+            <Grid
+              item
+              xs={12}
+              sm={4}
+              md={4}
+              className="services-container-flex"
+            >
               <Item sx={{ display: "flex" }} className="services-item">
                 <RxLayers className="services-icon layers" />
                 <Box sx={{ textAlign: "left" }} className="services-header">
                   <h5>Good base</h5>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>
+                    You can find our code well organized, commented and
+                    readable.
+                  </p>
                 </Box>
               </Item>
             </Grid>
-            <Grid item xs={4} sm={4} md={4} className="services-container-flex">
+            <Grid
+              item
+              xs={12}
+              sm={4}
+              md={4}
+              className="services-container-flex"
+            >
               <Item sx={{ display: "flex" }} className="services-item">
                 <BsRecycle className="services-icon recycle" />
                 <Box sx={{ textAlign: "left" }} className="services-header">
                   <h5>Clean Code</h5>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>
+                    As you can see in the source code, we provided a clean code.
+                  </p>
                 </Box>
               </Item>
             </Grid>
-            <Grid item xs={4} sm={4} md={4} className="services-container-flex">
+            <Grid
+              item
+              xs={12}
+              sm={4}
+              md={4}
+              className="services-container-flex"
+            >
               <Item sx={{ display: "flex" }} className="services-item">
                 <RiWechatLine className="services-icon chat" />
                 <Box sx={{ textAlign: "left" }} className="services-header">
                   <h5>Support</h5>
-                  <p>Lorem ipsum dolor sit amet.</p>
+                  <p>
+                    When you purchase this template, you'll freely receive
+                    future updates.
+                  </p>
                 </Box>
               </Item>
             </Grid>

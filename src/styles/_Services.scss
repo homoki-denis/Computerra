@@ -53,7 +53,6 @@
 }
 
 .services-item {
-  display: flex;
   box-shadow: none !important;
   border: none !important;
   padding: 0 0 0 10px !important;
@@ -68,7 +67,7 @@
   }
 
   p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #000;
     font-weight: 300;
     letter-spacing: 1px;
@@ -77,9 +76,6 @@
 }
 
 .services-container-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .services-grid {
