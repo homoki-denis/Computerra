@@ -32,7 +32,7 @@ const ParticleBackground = () => {
           zIndex: -1,
         },
         background: {
-          image: "linear-gradient(-45deg, #222324 0%, #000000 100%",
+          image: "linear-gradient(-45deg, #222324 0%, #000000 100%)",
         },
         particles: {
           color: {

@@ -43,7 +43,8 @@ export default function ElevateAppBar(props: Props) {
       <ElevationScroll {...props}>
         <AppBar
           sx={{
-            backgroundImage: "linear-gradient(-45deg, #000 0%, #000000 100%)",
+            backgroundImage:
+              "linear-gradient(-45deg, #222324 0%, #000000 100%)",
           }}
         >
           <Toolbar id="navbar">

@@ -1,3 +1,39 @@
+@media screen and (max-width: 901px) {
+  .services {
+    .services-img {
+      width: 19rem !important;
+    }
+    .services-header {
+      .services-title {
+        margin: 0 !important;
+      }
+      .services-subtitle {
+        margin: 0 !important;
+        font-size: 1.5rem !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .services-icon {
+    width: 2rem !important;
+    height: 2rem !important;
+  }
+  .services-item {
+    padding: 0 !important;
+  }
+
+  .services-header {
+    h5 {
+      font-size: 1rem !important;
+    }
+    p {
+      font-size: 0.7rem !important;
+    }
+  }
+}
+
 @media screen and (max-width: 570px) {
   .hamburger-menu {
     position: absolute;
@@ -35,5 +71,11 @@
     .main-p {
       font-size: 1rem !important;
     }
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .services-img {
+    width: 20rem !important;
   }
 }

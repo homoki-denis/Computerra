@@ -6,6 +6,29 @@
   flex-direction: column;
   height: 93vh;
   width: 100%;
+  text-align: center;
+  .services-header {
+    .services-title {
+      margin: 1.5rem 0 2rem 0;
+      font-size: 0.6875rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 1.5rem;
+      word-spacing: 2px;
+      color: rgba(153, 153, 153, 0.6);
+    }
+    .services-subtitle {
+      margin: 1.5rem 0;
+      font-size: 2rem;
+      font-weight: 400;
+      letter-spacing: 2px;
+    }
+    .services-p {
+      font-size: 1.2rem;
+      font-weight: 200;
+    }
+  }
 }
 
 #services-container {
@@ -15,7 +38,8 @@
 }
 
 .services-img {
-  width: 20rem;
+  width: 30rem;
+
   img {
     width: 100%;
     height: auto;
@@ -25,4 +49,63 @@
 .services-icon {
   width: 3rem;
   height: 3rem;
+  margin: 0 0.8rem 0 0;
+}
+
+.services-item {
+  display: flex;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.services-header {
+  h5 {
+    font-size: 1.3rem;
+    color: #000;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  p {
+    font-size: 0.8rem;
+    color: #000;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 0.5rem 0 0 0;
+  }
+}
+
+.services-container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-grid {
+  display: grid;
+  align-items: center;
+}
+
+.smartphone {
+  color: black;
+}
+
+.gears {
+  color: #50a1ff;
+}
+
+.pencil {
+  color: #926dde;
+}
+
+.layers {
+  color: #ffba00;
+}
+
+.recycle {
+  color: #ff4954;
+}
+
+.chat {
+  color: #3cd458;
 }
