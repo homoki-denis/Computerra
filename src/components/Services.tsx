@@ -37,16 +37,10 @@ function Services() {
           <Grid
             container
             spacing={{ xs: 2, md: 3 }}
-            columns={{ xs: 4, sm: 8, md: 12 }}
+            columns={{ xs: 8, sm: 8, md: 12 }}
             className="services-grid"
           >
-            <Grid
-              item
-              xs={12}
-              sm={4}
-              md={4}
-              className="services-container-flex"
-            >
+            <Grid item xs={4} sm={4} md={4} className="services-container-flex">
               <Item sx={{ display: "flex" }} className="services-item">
                 <FiSmartphone className="services-icon smartphone" />
                 <Box sx={{ textAlign: "left" }} className="services-header">
@@ -55,13 +49,7 @@ function Services() {
                 </Box>
               </Item>
             </Grid>
-            <Grid
-              item
-              xs={12}
-              sm={4}
-              md={4}
-              className="services-container-flex"
-            >
+            <Grid item xs={4} sm={4} md={4} className="services-container-flex">
               <Item sx={{ display: "flex" }} className="services-item">
                 <RxGear className="services-icon gears" />
                 <Box sx={{ textAlign: "left" }} className="services-header">
@@ -70,13 +58,7 @@ function Services() {
                 </Box>
               </Item>
             </Grid>
-            <Grid
-              item
-              xs={12}
-              sm={4}
-              md={4}
-              className="services-container-flex"
-            >
+            <Grid item xs={4} sm={4} md={4} className="services-container-flex">
               <Item sx={{ display: "flex" }} className="services-item">
                 <RiPencilRuler2Line className="services-icon pencil" />
                 <Box sx={{ textAlign: "left" }} className="services-header">
@@ -85,13 +67,7 @@ function Services() {
                 </Box>
               </Item>
             </Grid>
-            <Grid
-              item
-              xs={12}
-              sm={4}
-              md={4}
-              className="services-container-flex"
-            >
+            <Grid item xs={4} sm={4} md={4} className="services-container-flex">
               <Item sx={{ display: "flex" }} className="services-item">
                 <RxLayers className="services-icon layers" />
                 <Box sx={{ textAlign: "left" }} className="services-header">
@@ -100,13 +76,7 @@ function Services() {
                 </Box>
               </Item>
             </Grid>
-            <Grid
-              item
-              xs={12}
-              sm={4}
-              md={4}
-              className="services-container-flex"
-            >
+            <Grid item xs={4} sm={4} md={4} className="services-container-flex">
               <Item sx={{ display: "flex" }} className="services-item">
                 <BsRecycle className="services-icon recycle" />
                 <Box sx={{ textAlign: "left" }} className="services-header">
@@ -115,13 +85,7 @@ function Services() {
                 </Box>
               </Item>
             </Grid>
-            <Grid
-              item
-              xs={12}
-              sm={4}
-              md={4}
-              className="services-container-flex"
-            >
+            <Grid item xs={4} sm={4} md={4} className="services-container-flex">
               <Item sx={{ display: "flex" }} className="services-item">
                 <RiWechatLine className="services-icon chat" />
                 <Box sx={{ textAlign: "left" }} className="services-header">
