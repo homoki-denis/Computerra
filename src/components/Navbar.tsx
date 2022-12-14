@@ -3,7 +3,7 @@ import { useState } from "react";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-
+import logo from "../assets/logo.png";
 import useScrollTrigger from "@mui/material/useScrollTrigger";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
@@ -59,9 +59,9 @@ export default function ElevateAppBar(props: Props) {
                 className="navbar-container"
               >
                 <Box>
-                  <Typography variant="h6" className="logo">
-                    COMPUTERRA
-                  </Typography>
+                  <div className="logo">
+                    <img src={logo} alt="" />
+                  </div>
                 </Box>
                 <Box
                   sx={{ display: "flex", textTransform: "uppercase" }}
