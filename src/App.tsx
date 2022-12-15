@@ -7,6 +7,7 @@ import Box from "@mui/material/Box";
 import Main from "./components/Main";
 import Services from "./components/Services";
 import Ad from "./components/Ad";
+import Email from "./components/Email";
 
 function App() {
   return (
@@ -33,9 +34,10 @@ function App() {
           <Ad />
         </Container>
       </Box>
-      <Box id="services-container">
+
+      <Box id="services-container" className="email-box">
         <Container maxWidth="lg" id="container">
-          <Services />
+          <Email />
         </Container>
       </Box>
     </>

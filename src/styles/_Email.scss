@@ -1,0 +1,65 @@
+.email-container {
+  color: black;
+  justify-content: center;
+  height: 93vh;
+  width: 100%;
+  display: flex;
+
+  flex-direction: column;
+  text-align: center;
+  .email-title {
+    h2 {
+      font-size: 3rem;
+      font-weight: 300;
+      letter-spacing: 2px;
+    }
+    p {
+      margin: 2.5rem 0;
+      font-size: 1.5rem;
+      color: rgb(141, 141, 141);
+    }
+  }
+}
+
+.email-box {
+  background-color: #f7f7f7 !important;
+}
+
+.email-strategy {
+  display: flex;
+  margin: 2rem 0;
+  .email-item {
+    padding: 0 1rem;
+    h1 {
+      font-size: 1.5rem;
+    }
+    h3 {
+      font-size: 1.5rem;
+      margin: 1.2rem 0;
+      font-weight: 400;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6rem;
+      color: rgb(141, 141, 141);
+      letter-spacing: 1px;
+    }
+  }
+}
+
+.email-enter {
+  margin: 2rem 0 0 0;
+  input {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+  }
+  button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #3452ff;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+  }
+}
